@@ -22,6 +22,7 @@ def main():
     img = cv2.imread("netflix.png")
     readFrame(img)
     cv2.waitKey(0)
+    print("Holding...")
 
 if __name__ == "__main__":
     main()
